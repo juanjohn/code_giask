@@ -1,0 +1,126 @@
+*{
+	margin:0px 0px;
+	padding:0px 0px;
+	color:#000;
+	/*filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+h1{
+	font:bold 20px Tahoma;
+}
+h2{
+	font:bold 14px Tahoma;
+}
+ul{
+	list-style:none;
+}
+header, nav, section, article, footer ,aside, hgroup{
+	display:inline-block;
+}
+#big_wrapper : not(#header_main){
+	position:relative;
+	height:20px;
+	width:1000px;
+	border:1px solid black;
+}
+#big_wrapper{	
+  	text-align: center;
+ 	position:relative;
+ 	margin: -15px 0px 0px;
+}
+#header_main{
+	background-image: url(../images/rugged.jpg);
+	text-align:left;
+	position:relative;
+	width:100%;
+	top:0px;
+	height:150px;
+	background-color:#dee7ee;
+}
+section{
+	margin:10px 0px;
+	padding:10px;
+	position:relative;
+	text-align:left;
+	width:900px;
+	height:600px;
+	border:2px solid #b3b8c8;
+	background-color:#fff;
+}
+#footer{
+	background-image: url(ruggd.jpg);
+	position:relative;
+	bottom:0px;
+	width:100%;
+	height:100px;
+	margin-top:20px;
+	border-top:2px solid #b3b8c8;
+}
+#footer p {
+	color:#FFF;
+}
+#aside_left{
+	position:relative;
+	width:200px;
+	float:left;
+	height:600px;
+	margin:10px 5px 0px;
+	padding:10px;
+	background-color:#fff;
+}
+#section_left{
+	float:left;
+}
+#section_right{
+	position:relative;
+	margin:0px 10px;
+	width:250px;	
+	float:right;
+}
+#section_right div{
+	margin:4px 0px;
+}
+#section_left ul{
+	cursor:pointer;
+}
+input{
+	margin:4px 0px;
+	padding:3px;
+}
+input[type="button"],[type="submit"]{
+	padding:1px;
+}
+i{
+	color:blue;
+	font-style:normal;
+}
+#file_list tr:nth-child(odd),body{
+	background-color:#e8e9e9;
+}
+#header_main p {
+	color:#fff;
+}
+input[type="text"],[type="password"],#file_list{
+	width:200px;
+	border:2px solid white; 
+    box-shadow:inset 0 0 8px  rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.2); 
+}
+
+section,#aside_left{
+	border:2px solid white;
+	box-shadow:inset 0 0 8px rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.5);
+}
+
+#file_list{
+	position:relative;
+	height:500px;
+	width:500px;
+	overflow-y:scroll;
+	background-color:rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
